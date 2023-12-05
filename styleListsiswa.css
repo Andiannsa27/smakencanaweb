@@ -1,0 +1,96 @@
+td{
+    text-align: center;
+  }
+  
+  .f{
+   background: lightgrey;
+   padding: 6px 12px;
+   border: black 1px solid;
+   border-radius: 1px;
+   width: 10%;
+  }
+  
+  .f:hover{
+   background: gold;
+  }
+  
+  .search{
+    padding: 6px 12px;
+    background: rgba(50,50,50,0.2);
+    border: 0px solid #dbdbdb;
+  }
+  
+  .button1{
+   background: lightgrey;
+   padding: 6px 12px;
+   border: black 1px solid;
+   border-radius: 1px;
+   width: 10%;
+  }
+  
+  .button1:hover{
+   background: gold;
+  }
+  
+  .card {
+  box-shadow: 2px 3px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+  }
+  
+  .jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-image: url("image/gambar.jpg") ;
+  text-align: center;
+  color: gold;
+  
+  }
+  
+  nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+  }
+  
+  .b {
+  background-color: cadetblue;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  }
+  
+  nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: whitesmoke;
+  }
+  
+  nav a:hover {
+  font-weight: bold;
+  }
+  
+  header {
+  display: inline;
+  }
+  
+  body {
+    background-image: url("image/school.jpg") ;
+  }
+  
+  footer {
+    padding: 20px;
+    color: whitesmoke;
+    text-shadow: 2px 3px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: cadetblue;
+    text-align: center;
+    font-weight: bold;
+ }
+
+ main {
+  padding: 20px;
+  overflow: auto;
+}

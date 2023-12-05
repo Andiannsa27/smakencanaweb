@@ -1,0 +1,118 @@
+form{
+    display: grid;
+    padding: 1em;
+    background: #f9f9f9;
+    border: 2px solid #4b5195;
+    margin: 2rem auto 0 auto;
+    max-width: 600px;
+    padding: 1em;
+}
+
+form input {
+    background: #fff;
+    border: 1px solid #9c9c9c;
+}
+
+form button {
+    background: lightgrey;
+    padding: 0.7em;
+    width: 100%;
+    border: 0;
+}
+
+form button:hover {
+    background: gold;
+}
+  
+label {
+    padding: 0.5em 0.5em 0.5em 0;
+}
+  
+input {
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+}
+
+input:focus {
+    outline: 3px solid gold;
+}
+  
+@media (min-width: 400px) {
+    form {
+      grid-template-columns: 200px 1fr;
+      grid-gap: 16px;
+}
+  
+label {
+      text-align: right;
+      grid-column: 1 / 2;
+}
+  
+input,
+button {
+      grid-column: 2 / 3;
+    }
+}
+
+.card {
+    box-shadow: 2px 3px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+ }
+ 
+ .jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-image: url("image/gambar.jpg") ;
+   text-align: center;
+   color: gold;
+   
+ }
+ 
+ nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+ }
+ 
+ nav {
+  background-color: cadetblue;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+ }
+ 
+ nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: whitesmoke;
+ }
+ 
+ nav a:hover {
+   font-weight: bold;
+ }
+ 
+ header {
+   display: inline;
+ }
+ 
+ body {
+  background-image: url("image/school.jpg") ;
+ }
+ 
+ main {
+  padding: 20px;
+  overflow: auto;
+}
+
+footer {
+  padding: 20px;
+  color: whitesmoke;
+  text-shadow: 2px 3px 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: cadetblue;
+  text-align: center;
+  font-weight: bold;
+}

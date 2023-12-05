@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background:url(image/school.jpg);
+	background-size: cover;
+}
+h1{
+	color:white;
+	
+}
+.logo{
+    width: 80px;
+    height: 90px;
+    position:relative;
+    top: -50px;
+    left: calc(50% -5);
+}
+.box{
+	width: 300px;
+	padding: 40px;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background:cadetblue;
+	text-align: center;
+	/* left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -100px; */
+}
+.box h1{
+	coloR:white;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.box input[type="text"],.box input[type="password"]{
+	border: 0;
+	background:whitesmoke;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid blue;
+	padding: 14px, 10px;
+	width: 270px;
+	height: 30px;
+	border-radius: 24px;
+	transition: 0,25px;
+}
+
+.box input[type="text"],.box input[type="password"]:focus{
+	width: 270px;
+	height: 30px;
+	border-color:darkmagenta;
+}
+.box input[type="submit"]{
+	border: 0;
+
+}
+
+.a{
+	font-size: 14px;
+	font-style: italic;
+	font-family: sans-serif;
+	color: white;
+}
+
+.b{
+	font-size: 14px;
+	font-family: sans-serif;
+	color: blue;
+	font-style: italic;
+}
+
+form button {
+    background: lightgrey;
+    padding: 0.5em;
+    width: 40%;
+    border: 1;
+	border-radius: 24px;
+}
+
+form button:hover {
+    background: gold;
+}
